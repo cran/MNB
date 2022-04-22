@@ -58,8 +58,10 @@ mod2
 \item Fabio, L., Paula, G. A., and de Castro, M. (2012). A Poisson mixed model
 with nonormal random effect distribution. Computational Statistics and
 Data Analysis, 56, 1499-1510.
-\item Fabio, L. C, Villegas, C. L., Carrasco, J. M. F. and de Castro, M. (2020). Diagnostic tools for a multivariate
-negative binomial model for fitting correlated data with overdispersion. Submitted.
+\item Fabio, L. C., Villegas, C., Carrasco, J. M. F., and de Castro, M. (2021). D
+Diagnostic tools for a multivariate negative binomial model for fitting correlated data with
+overdispersion. Communications in Statistics - Theory and Methods.
+https://doi.org/10.1080/03610926.2021.1939380.
 }
 }
 \author{

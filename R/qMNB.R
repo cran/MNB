@@ -23,8 +23,10 @@ f.Ymas <- function(par,ymas,mu.mas){
 #' \itemize{
 #' \item Dunn, P. K. and Smyth, G. K. (1996). Randomized quantile residuals. Journal of Computational and Graphical
 #' Statistics, 5, 236-244.
-#' \item Fabio, L. C, Villegas, C. L., Carrasco, J. M. F. and de Castro, M. (2020). Diagnostic tools for a multivariate
-#' negative binomial model for fitting correlated data with overdispersion. Submitted.
+#' \item Fabio, L. C., Villegas, C., Carrasco, J. M. F., and de Castro, M. (2021). D
+#' Diagnostic tools for a multivariate negative binomial model for fitting correlated data with
+#' overdispersion. Communications in Statistics - Theory and Methods.
+#' https://doi.org/10.1080/03610926.2021.1939380.
 #' }
 #' @examples
 #'
@@ -45,6 +47,18 @@ f.Ymas <- function(par,ymas,mu.mas){
 #' abline(h=c(-2,0,2),lty=3)
 #' #identify(res.q)
 #'
+#'
+#' data(alzheimer)
+#' head(alzheimer)
+#'
+#' star <- list(phi=10,beta1=2, beta2=0.2)
+#' mod <- fit.MNB(formula = Y ~ trat, star = star, dataSet = alzheimer,tab=FALSE)
+#'
+#' par<- mod$par
+#' names(par) <- c()
+#' re.q <- qMNB(par=par,formula = Y ~ trat, dataSet = alzheimer)
+#' head(re.q)
+#'
 #' @export
 #' @import stats
 
@@ -64,7 +78,7 @@ qMNB <- function(par,formula,dataSet){
   phi <- par[1]
   beta <- par[2:(p+1)]
 
-  if(class(off)=="NULL"){
+  if(methods::is(off,"NULL")){
     eta <- X %*% beta} else{eta <- X %*% beta + off}
 
   mu.i <- apply(matrix(exp(eta),mi,n), 2,sum)
