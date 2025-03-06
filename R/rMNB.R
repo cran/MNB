@@ -1,13 +1,13 @@
 #' Generating Multivariate Negative Binomial Data
 #'
-#' @description It simulates a multivariate response variable, Y_{ij}, that is jth measurement
+#' @description It simulates a multivariate response variable, \eqn{Y_{ij}}, that is jth measurement
 #' taken on the ith subject or cluster, i = 1,...,n and j= 1,...,mi.
 #' @param n Length of the sample.
 #' @param mi replicates on the ith subject or cluster.
 #' @param formula The structure matrix of covariates of dimension n x p (in models that include an intercept x
 #' should contain a column of ones)
 #' @param p.fix Vector of theoretical regression parameters of length p.
-#' @return Generated response (Y_ij)
+#' @return Generated response (\eqn{Y_{ij}})
 #' @author Jalmar M F Carrasco <carrascojalmar@gmail.com>,
 #' Cristian M Villegas Lobos <master.villegas@gmail.com> and Lizandra C Fabio <lizandrafabio@gmail.com>
 #' @examples

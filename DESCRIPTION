@@ -1,8 +1,9 @@
 Package: MNB
 Type: Package
-Title: Diagnostic Tools for a Multivariate Negative Binomial Model
-Version: 1.1.0
-Date: 2022-04-22
+Title: Diagnostic Tools for a Multivariate Negative Binomial Regression
+        Model
+Version: 1.2.0
+Date: 2025-03-05
 Authors@R: c(person("Jalmar", "Carrasco", role = c("aut", "cre"),
                      email = "carrascojalmar@gmail.com"),
               person("Cristian", "Lobos", role = "aut"),
@@ -16,16 +17,17 @@ Description: Diagnostic tools as residual analysis, global,
     from the random intercept Poisson generalized log gamma model 
     are available in this package. Including also, the estimation 
     process by maximum likelihood method, for details see 
-    Fabio, L. F; Villegas, C. L.; Carrasco, J.M.F and de Castro, M. (2021) 
-    <doi:10.1080/03610926.2021.1939380>.
+    Fabio, L. C; Villegas, C. L.; Carrasco, J.M.F and de Castro, M. (2023) 
+    <doi:10.1080/03610926.2021.1939380> and Fábio, L. C.; Villegas, C.; 
+    Mamun, A. S. M. A. and Carrasco, J. M. F. (2025) <doi:10.28951/bjb.v43i1.728>.
 License: GPL (>= 2)
 LazyData: TRUE
 Imports: flexsurv, numDeriv, graphics, methods,
 Suggests: stats,
 Depends: R (>= 3.5.0)
 NeedsCompilation: no
-RoxygenNote: 7.1.1
+RoxygenNote: 7.3.2
 Encoding: UTF-8
-Packaged: 2022-04-22 12:43:27 UTC; carra
+Packaged: 2025-03-05 07:44:36 UTC; jalmarcarrasco
 Repository: CRAN
-Date/Publication: 2022-04-22 13:00:02 UTC
+Date/Publication: 2025-03-06 00:00:16 UTC

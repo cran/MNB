@@ -17,10 +17,13 @@
 #' \itemize{
 #' \item Atkinson A.C. (1985). Plots, Transformations and Regression: An Introduction to Graphical Methods of Diagnostic
 #' Regression Analysis. Oxford University Press, New York.
-#' \item Fabio, L. C., Villegas, C., Carrasco, J. M. F., and de Castro, M. (2021). D
-#' Diagnostic tools for a multivariate negative binomial model for fitting correlated data with
-#' overdispersion. Communications in Statistics - Theory and Methods.
-#' https://doi.org/10.1080/03610926.2021.1939380.
+#' \item Fabio, L. C., Villegas, C., Carrasco, J. M. F., and de Castro, M. (2023).
+#' Diagnostic tools for a multivariate negative binomial
+#' model for fitting correlated data with overdispersion. Communications in
+#' Statistics - Theory and Methods, 52, 1833–1853.
+#' \item Fabio, L. C., Villegas, C., Mamun, A. S., and Carrasco, J. M. F. (2025).
+#' Residual analysis for discrete correlated data in the multivariate approach.
+#' Brazilian Journal of Biometrics, 43, e43728.
 #'
 #' }
 #' @examples

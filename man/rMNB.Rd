@@ -17,10 +17,10 @@ should contain a column of ones)}
 \item{p.fix}{Vector of theoretical regression parameters of length p.}
 }
 \value{
-Generated response (Y_ij)
+Generated response (\eqn{Y_{ij}})
 }
 \description{
-It simulates a multivariate response variable, Y_{ij}, that is jth measurement
+It simulates a multivariate response variable, \eqn{Y_{ij}}, that is jth measurement
 taken on the ith subject or cluster, i = 1,...,n and j= 1,...,mi.
 }
 \examples{

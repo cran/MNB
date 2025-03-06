@@ -38,10 +38,13 @@ head(seizures)
 \itemize{
 \item Diggle, P. J., Liang, K. Y., and Zeger, S. L. (2013). Analysis of Longitudinal Data. Oxford
 University Press, N.Y., 2 edition.
-\item Fabio, L. C., Villegas, C., Carrasco, J. M. F., and de Castro, M. (2021). D
-Diagnostic tools for a multivariate negative binomial model for fitting correlated data with
-overdispersion. Communications in Statistics - Theory and Methods.
-https://doi.org/10.1080/03610926.2021.1939380.
+\item Fabio, L. C., Villegas, C., Carrasco, J. M. F., and de Castro, M. (2023).
+Diagnostic tools for a multivariate negative binomial
+model for fitting correlated data with overdispersion. Communications in
+Statistics - Theory and Methods, 52, 1833–1853.
+\item Fabio, L. C., Villegas, C., Mamun, A. S., and Carrasco, J. M. F. (2025).
+Residual analysis for discrete correlated data in the multivariate approach.
+Brazilian Journal of Biometrics, 43, e43728.
 }
 }
 \keyword{dataSets}

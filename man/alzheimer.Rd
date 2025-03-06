@@ -35,11 +35,8 @@ head(alzheimer)
 \itemize{
 \item Hand, D. J. and Crowder, M. (1996). Practical Longitudinal Data Analysis. London: Chapman and Hall.
 \item Hand, D. J. and Taylor, C. C. (1987). Analysis of Variance and Repeated Measures. London: Chapman and Hall.
-\item Fabio, L. C., Villegas, C., Carrasco, J. M. F., and de Castro, M. (2021). D
-Diagnostic tools for a multivariate negative binomial model for fitting correlated data with
-overdispersion. Communications in Statistics - Theory and Methods.
-https://doi.org/10.1080/03610926.2021.1939380.
-\item Residual analysis for discrete correlated data in the multivariate approach. Submitted.
+\item Fabio, L. C., Villegas, C., Carrasco, J. M. F., and de Castro, M. (2023). Diagnostic tools for a multivariate negative binomial model for fitting correlated data with overdispersion. Communications in Statistics - Theory and Methods, 52, 1833–1853.
+\item Fabio, L. C., Villegas, C., Mamun, A. S., and Carrasco, J. M. F. (2025). Residual analysis for discrete correlated data in the multivariate approach. Brazilian Journal of Biometrics, 43, e43728.
 }
 }
 \keyword{dataSets}

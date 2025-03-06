@@ -61,10 +61,13 @@ Mixed Effects and nonparametric regression models. Taylor & Francis, New York.
 \item Fabio, L., Paula, G. A., and de Castro, M. (2012). A Poisson mixed model
 with nonormal random effect distribution. Computational Statistics and
 Data Analysis, 56, 1499-1510.
-\item Fabio, L. C., Villegas, C., Carrasco, J. M. F., and de Castro, M. (2021). D
-Diagnostic tools for a multivariate negative binomial model for fitting correlated data with
-overdispersion. Communications in Statistics - Theory and Methods.
-https://doi.org/10.1080/03610926.2021.1939380.
+\item Fabio, L. C., Villegas, C., Carrasco, J. M. F., and de Castro, M. (2023).
+Diagnostic tools for a multivariate negative binomial
+model for fitting correlated data with overdispersion. Communications in
+Statistics - Theory and Methods, 52, 1833–1853.
+\item Fabio, L. C., Villegas, C., Mamun, A. S., and Carrasco, J. M. F. (2025).
+Residual analysis for discrete correlated data in the multivariate approach.
+Brazilian Journal of Biometrics, 43, e43728.
 }
 }
 \author{
